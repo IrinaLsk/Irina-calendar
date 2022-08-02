@@ -1,0 +1,132 @@
+@import 'normlize.css';
+
+
+body{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.header{
+    background-color: #F4F4F4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    padding: 0px;
+   
+}
+
+button {
+    background-color: #0271C7;
+    color: white;
+    height: 26px;
+    width: 80px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    
+    
+  }
+
+  .btn{
+    margin-top: 52px;
+    margin-left: 10px;
+    
+  }
+
+  #btn{
+    margin-left: 220px;
+    margin-right: 100px;
+  }
+
+  #vector{
+    margin-left: 582px;
+    margin-top: 52px;
+    
+  }
+  #input {
+    width: 210px;
+    height: 28px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #CFCFCF;
+    border-radius: 4px;
+    border: 1px solid #CFCFCF;;
+    background: #FFFFFF;
+    box-shadow: inset 0px 0px 1px 2px rgba(0, 0, 0, 0.25);
+    margin-top: 52px;
+    margin-left: 20px;   
+  }
+
+  input::placeholder {
+    color:#CFCFCF;
+    height: 16px;
+  }
+
+  
+
+
+.month{
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  padding: 12px 0px;
+  width: 1000px;
+  height: 48px;
+  margin: 0;
+  margin-left: 208px;
+}
+
+.month .prev {
+  margin-left: 12px;
+  width: 32px;
+  height: 24px;
+  border-radius:4px;  
+  padding: 0px 12px;
+}
+
+.month .next {
+  width: 32px;
+  height: 24px;
+  border-radius:4px;  
+  padding: 0px 12px;
+}
+
+.month.p{
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.today{
+  font-size: 12px;
+  width: 59px;
+  height: 18px;
+  margin:10px;
+  border-radius: 4px;
+  background-color:#FFFFFF;
+  color:#292929;
+  box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+ 
+ li{
+  list-style-type: none;
+ }
+.event{
+  font-size: 14px;
+  padding: 0;
+  color:#292929;
+  margin: 8px;        
+              }
+
+.people{
+     margin: 8px;
+     font-size: 14px;
+              }   
+              
+.blue{
+  background-color:#C2E4FE;
+}

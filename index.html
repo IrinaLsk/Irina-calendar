@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style/style.css">
+    <title>Calendar</title>
+    <style>
+
+        table {
+            display: flex;
+            flex-direction: column;
+            
+
+        }
+
+        td, th{ 
+             border: rgb(208, 206, 202) 1px solid;
+             
+            }
+
+        tr {
+            display: flex;
+            justify-content: center;
+            align-items:flex-start;
+            
+        }
+
+        td{
+            display: flex;
+            flex-direction: column;
+            align-items:flex-start;
+            color:#6B6B6B;
+            width: 143px;
+            height: 120px;
+            padding: 8px;
+            font-size: 13px;
+        }    
+        
+        .myTable {
+        margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <div id="btn">
+            <button class="btn">Добавить</button>
+            <button class="btn">Обновить</button> 
+        </div>
+        
+        
+        <img  src="img/Vector.png" alt="" id="vector">
+        <input id="input" class="search"' type="text" spellcheck="false" placeholder="Событие, дата или участник " >
+    </div>
+    
+
+    <div class="month">
+          <span class="prev"><img src="/img/button-icon-l.png" alt=""></span>
+          <p class="p">Ноябрь<span>2021</span></p>
+          <span class="next"><img src="/img/button-icon-r.png" alt=""></span>
+          <button class="today">Сегодня</button>
+          
+    </div>
+
+     <div id="table">
+                  
+        <table class="myTable"> 
+            <thead>
+                <tr>
+                    <td>Понедельник, 27</td>
+                     <td>Вторник, 28</td>
+                     <td>Среда, 29</td>
+                     <td class="blue">Четверг,30
+                        <li class="event">Шашлыки</li>
+                        <li class="people">Филипп Коров,
+                            Дмитрий Табасков</li>
+                     </td>
+                     <td>Пятница, 1</td>
+                     <td>Суббота, 2</td>
+                     <td>Воскресенье, 3</td>
+                </tr>
+            </thead>
+
+            <tbody> 
+                <tr>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    
+                </tr>
+
+                 <tr>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>14</td>
+                    <td class="blue">15
+                        <li class="event">Летний лагерь </li>
+                        <li class="people">Алексей
+                                            Маральный</li>
+                    </td>
+                    <td>16</td>
+                    <td>17</td>
+                </tr> 
+
+                <tr>
+                     <td class="blue">18 <li class="event"> Аква кутеж</li>
+                            <li class="people"> Михаил Шустин,
+                                                Владимир Пупкин,
+                                                Дмитрий Медев </li>
+                        </td>
+                     <td>19</td>
+                     <td>20</td>
+                     <td>21</td>
+                     <td>22</td>
+                     <td>23</td>
+                     <td>24</td>
+                </tr> 
+
+                <tr>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                    <td>31</td>
+                </tr> 
+            </tbody> 
+        </table>
+     </div>
+   
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
